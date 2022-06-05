@@ -1,0 +1,132 @@
+/* #app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+} */
+.swiper{
+
+    width: 100%;
+    height: 20rem;
+}
+.card-img{
+    padding: 1rem;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.image-box ._image:hover{
+    background-color: red;
+    width: 8.9rem;
+    height: 10rem;
+   
+}
+.title-box{
+    
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.title{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0rem 3.3rem 0rem 1rem ;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    text-overflow: ellipsis;
+   
+}
+.after-title{
+    margin: 0rem 3rem 0rem 0rem ;
+    color: #388e3c;
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: 200;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+}
+.after-title-desc{
+    margin: 0rem 3rem 0rem 0rem ;
+    font-family: Roboto,Arial,sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(166, 162, 162);
+    margin-left: 0rem;
+
+}
+
+/* .shoe-essentials{
+    height: inherit;
+} */
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; */
+  /* display: flex; */
+  -webkit-box-pack: center;
+  /* -ms-flex-pack: center; */
+  /* -webkit-justify-content: center; */
+  /* justify-content: center; */
+  /* -webkit-box-align: center; */
+  /* -ms-flex-align: center; */
+  /* -webkit-align-items: center; */
+  /* align-items: center; */
+}
+.shop-essentails{
+    height: 70%;
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-row: wrap;
+    /* background-color: #388e3c; */
+
+}
+ .shop-essentails .all-essentials{
+    width: 100%;
+    height: 100%;
+    /* background-color: gold; */
+    /* border: 2px solid red; */
+    
+}
+
+.image-box{
+    height: 190px;
+    width: 150px;
+    text-align: center;
+    margin: 1.5rem;
+    padding-left: 1rem;
+}
+
+.image-box ._image{
+    height: 100%;
+    width: 100%;
+}

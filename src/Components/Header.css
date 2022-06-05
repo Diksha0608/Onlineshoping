@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+._2xm1JU{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-custom {
+    background-color: rgb(238, 144, 197);
+}
+
+.text{
+    font-size: 13px;
+    font-style: italic;
+    margin-top: -1px;
+    color: white;
+}
+.plus{
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+}
+.box-container{
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    width: 25%;
+    height: 36px;
+    max-width: 564px;   
+}
+
+
+  ._btn{
+  line-height: normal;
+  border: none;
+  width: 12%;
+  height: 83%;
+  background-color: white;
+  padding-left: 2rem;
+  margin-left: 1.3rem;
+  margin-top: 1rem;
+
+}
+
+.box-container ._search-box ._container{
+   display: flex;
+   justify-content: space-around;
+   /* padding-left: 2rem;
+   text-decoration: none;
+   border: none;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 5rem;
+   padding: 0 9rem 3rem 0rem;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px; 
+    height: 100%;
+    width: 28vw; */
+
+}
+._li{
+    padding: 0% 3%;
+    display: inline-block;
+    list-style: none;
+    
+}
+.login_btn{
+    color: #2874f0;
+    font-weight: 700;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 0px 40px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+._login_seller{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;  
+}
+
+._seller-span{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+._more-sec{
+    font-weight: bold;
+    color: white;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._search-box{
+    width: 20rem;
+
+}

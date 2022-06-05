@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.me-auto navlink span{
+    color: white;
+}
+.span-heading{
+    color: white;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+.span-heading-login{
+    margin-right: 1rem;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.nav-link li:hover{
+   text-decoration: underline;
+}
+
+
+
+
+#collasible-nav-dropdown{
+    color: white;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    /* border: 2px solid red; */
+    height: 2rem;
+}
