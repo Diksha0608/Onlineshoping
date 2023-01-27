@@ -50,7 +50,7 @@ function Registerform () {
     
 
         return (
-            <div className='body'>
+           
                 <div className='container--1'>
                 <form onSubmit={(e) => onSubmitHandle(e)}>
 
@@ -82,7 +82,7 @@ function Registerform () {
                     </div>
                 </form>
                 </div>
-            </div>
+          
         );
     }
 

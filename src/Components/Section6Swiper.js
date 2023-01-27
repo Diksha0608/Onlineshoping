@@ -39,6 +39,7 @@ export default function Section5Swiper() {
       <a className="after-title1" href="#"> Shop Now</a>
       </div>
     <a className="after-title1-desc" href="#">For All iphone models</a>
+    <div className=" button--add"><button className="btn btn-primary"> Add to Cart</button> </div>
     </div>
 
   </div>
@@ -52,6 +53,7 @@ export default function Section5Swiper() {
       <a className="after-title1" href="#"> from  ₹3,999</a>
       </div>
     <a className="after-title1-desc" href="#"> Mens Sneakers! </a>
+    <div className=" button--add"><button className="btn btn-primary"> Add to Cart</button> </div>
     </div>
 
   </div>
@@ -65,6 +67,7 @@ export default function Section5Swiper() {
       <a className="after-title1" href="#"> From ₹799 </a>
       </div>
     <a className="after-title1-desc" href="#"> MI, Netgear, TP-Link & more</a>
+    <div className=" button--add"><button className="btn btn-primary"> Add to Cart</button> </div>
     </div>
 
   </div>
@@ -79,6 +82,7 @@ export default function Section5Swiper() {
       <a className="after-title1" href="#"> Up to 60% off </a>
       </div>
     <a className="after-title1-desc" href="#"> Casual Shoes, Sneakers...! </a>
+    <div className=" button--add"><button className="btn btn-primary"> Add to Cart</button> </div>
     </div>
 
 
@@ -104,6 +108,7 @@ export default function Section5Swiper() {
       <a className="after-title1" href="#"> From ₹499 </a>
       </div>
     <a className="after-title1-desc" href="#"> Logitech , Quantum </a>
+    <div className=" button--add"><button className="btn btn-primary"> Add to Cart</button> </div>
     </div>
 
   </div>
@@ -117,6 +122,7 @@ export default function Section5Swiper() {
       <a className="after-title1" href="#"> Upto 50% off</a>
       </div>
     <a className="after-title1-desc" href="#"> Basketball Shoes </a>
+    <div className=" button--add"><button className="btn btn-primary"> Add to Cart</button> </div>
     </div>
 
   </div>
@@ -130,6 +136,7 @@ export default function Section5Swiper() {
       <a className="after-title1" href="#"> from ₹99 </a>
       </div>
     <a className="after-title1-desc" href="#"> Best Sellers@Lowest Price  </a>
+    <div className=" button--add"><button className="btn btn-primary"> Add to Cart</button> </div>
     </div>
 
   </div>
@@ -144,6 +151,7 @@ export default function Section5Swiper() {
       <a className="after-title1" href="#"> 40-70% off </a>
       </div>
     <a className="after-title1-desc" href="#"> Men's FootWear </a>
+    <div className=" button--add"><button className="btn btn-primary"> Add to Cart</button> </div>
     </div>
 
 
@@ -167,6 +175,7 @@ export default function Section5Swiper() {
       <a className="after-title1" href="#"> From ₹199 </a>
       </div>
     <a className="after-title1-desc" href="#"> Best Discounts! </a>
+    <div className=" button--add"><button className="btn btn-primary"> Add to Cart</button> </div>
     </div>
 
     </div>

@@ -23,7 +23,7 @@
     margin-right: 2px;
 }
 .box-container{
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
+    /* box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%); */
     width: 25%;
     height: 36px;
     max-width: 564px;   
@@ -100,6 +100,6 @@
     justify-content: center;
 }
 ._search-box{
-    width: 20rem;
+    width: 30rem;
 
 }

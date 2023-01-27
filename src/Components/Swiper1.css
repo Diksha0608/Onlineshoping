@@ -21,10 +21,22 @@ body {
   margin: 0;
   padding: 0;
 }
-.image-box ._image:hover{
-    background-color: red;
-    width: 8.9rem;
-    height: 10rem;
+.image-box{
+    width: 30px;
+    height: 40px;
+    transition: all 1s linear;
+    
+}
+.image-box > img{
+    width: 100%;
+    height: 100%;
+   
+}
+.image-box img:hover{
+    /* background-color: red; */
+    /* width: 8.9rem;
+    height: 10rem; */
+    transform: scale(1.1);
    
 }
 .title-box{
@@ -129,4 +141,8 @@ body {
 .image-box ._image{
     height: 100%;
     width: 100%;
+}
+
+.button--add{
+    margin-left: -6.9rem;
 }

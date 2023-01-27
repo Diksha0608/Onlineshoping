@@ -49,11 +49,7 @@ const Header = () => {
           <NavLink to='/anotherlogin'> <button className='login_btn'>Log In</button> </NavLink> 
         </div>
     
-        <div className='seller'>
-            <NavLink to='/becomeseller'>
-                <span  className ='_seller-span'style={{color:"white"}} >Become a Seller</span>
-            </NavLink >
-        </div>
+       
         
         </div>
        <NavLink to='/registerform' style={{color:"white"}} >RegisterPage</NavLink> 

@@ -33,7 +33,7 @@ export class Section3 extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="../../images/vivo-offer.webp" width={400} height={300} style={{Left:'50'}}
+      src="../../images/newimage.webp" width={400} height={300} style={{Left:'50'}}
       alt="Third slide"
     />
     {/* <Carousel.Caption>

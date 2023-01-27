@@ -31,6 +31,7 @@ function UseFormHooks(props) {
           <div>
           <input {...register("Phone_number", { maxLength: 10 })} placeholder="Phone No." />
           </div>
+          <br></br>
           {errors.Phone_number && <span>Invalid phone number</span>}
           <div>
           <input

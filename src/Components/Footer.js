@@ -94,18 +94,7 @@ const Footer = () => {
                 Bengaluru, 560103,<br/>
                 Karnataka, India</p>
                 </div>
-                {/* <div className=' box--address'>
-                    Register office Address
-                    <div className='content__address'>
-                    <p>Flipkart Internet Private Limited
-                    <br/>
-                Buildings Alyssa, Begonia &
-                Clove Embassy Tech Village,
-                <br/>Outer Ring Road, Devarabeesanahalli Village,
-                Bengaluru, 560103,<br/>
-                Karnataka, India</p>
-                    </div>
-                </div> */}
+               
                 </div>
 
                 </div>
@@ -125,18 +114,7 @@ const Footer = () => {
                 <br/>
                 Telephone: <span style={{color:'blue'}}>1800 202 9898</span></p>
                 </div>
-                {/* <div className=' box--address'>
-                    Register office Address
-                    <div className='content__address'>
-                    <p>Flipkart Internet Private Limited
-                    <br/>
-                Buildings Alyssa, Begonia &
-                Clove Embassy Tech Village,
-                <br/>Outer Ring Road, Devarabeesanahalli Village,
-                Bengaluru, 560103,<br/>
-                Karnataka, India</p>
-                    </div>
-                </div> */}
+             
                 </div>
 
                 </div>

@@ -1,10 +1,9 @@
-import React, { Component, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Card , CardGroup,ListGroup,ListGroupItem} from "react-bootstrap";
 import data from '../MOCK_DATA.json'
 import items from '../MOCK_DATA1.json'
-import axios from "axios";
 
 // Import Swiper styles
 import "swiper/css";
@@ -16,24 +15,8 @@ import "./Swiper1.css";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-class Swiper1 extends Component  {
-  state = {
-
-    pageTitle: "Customers",
-    productCount: 5,
-    products: []
-}
-constructor() {
-
-    super()
-
-
-}
-
-render() {
-
-
-  //  const [datas , setData] = useState(data);
+export default function Swiper1() {
+   const [datas , setData] = useState(data);
 
   return (
     <>
@@ -50,19 +33,18 @@ render() {
 
 
 <div className="shop-essentails">
-  {this.state.products.map(data=>{
+  {datas.map(data=>{
     return(
      <div className="all-essentials">
      <div className="image-box">
-       {/* <img className="_image" src="../../images/Watch-img.webp"></img> </div> alt="Erro"></img> */}
-       <img className="_image" src="../../images/Watch-img.webp" alt="Error"></img>
+       <img className="_image" src={data.image} alt="Erro"></img>
      </div>
      <div className="title-box">
-       <span className="title">{data.name}</span>
+       <span className="title">{data.heading}</span>
        <div>
-       <a className="after-title" to="/"> {data.price} </a>
+       <a className="after-title" href="#"> {data.offer} </a>
        </div>
-     <a className="after-title-desc" to="/"> {data.description} </a>
+     <a className="after-title-desc" href="#"> {data.desc} </a>
      </div>
    </div>
     )
@@ -77,9 +59,9 @@ render() {
     <div className="title-box">
       <span className="title">Watches</span>
       <div>
-      <a className="after-title" to="#"> From ₹149 </a>
+      <a className="after-title" href="#"> From ₹149 </a>
       </div>
-    <a className="after-title-desc" to="#"> Knockout Deals! </a>
+    <a className="after-title-desc" href="#"> Knockout Deals! </a>
     </div>
 
   </div>
@@ -90,9 +72,9 @@ render() {
     <div className="title-box">
       <span className="title">Sprax and Bata Addidas...</span>
       <div>
-      <a className="after-title" to="#"> from ₹199 + extra 10% off </a>
+      <a className="after-title" href="#"> from ₹199 + extra 10% off </a>
       </div>
-    <a className="after-title-desc" to="#"> Mens casual shoes  </a>
+    <a className="after-title-desc" href="#"> Mens casual shoes  </a>
     </div>
 
   </div>
@@ -104,9 +86,9 @@ render() {
     <div className="title-box">
       <span className="title">Kitchen and Dining Essentials</span>
       <div>
-      <a className="after-title" to="#"> From ₹199 </a>
+      <a className="after-title" href="#"> From ₹199 </a>
       </div>
-    <a className="after-title-desc" to="#"> Best Discounts! </a>
+    <a className="after-title-desc" href="#"> Best Discounts! </a>
     </div>
 
 
@@ -129,11 +111,11 @@ render() {
        <img className="_image" src={datas.image} alt="Erro"></img>
      </div>
      <div className="title-box">
-       <span className="title">{datas.name}</span>
+       <span className="title">{datas.heading}</span>
        <div>
-       <a className="after-title" to="/"> {datas.price} </a>
+       <a className="after-title" href="#"> {datas.offer} </a>
        </div>
-     <a className="after-title-desc" to="/"> {datas.description} </a>
+     <a className="after-title-desc" href="#"> {datas.desc} </a>
      </div>
    </div>
     )
@@ -147,9 +129,9 @@ render() {
     <div className="title-box">
       <span className="title">Trendy Sarees</span>
       <div>
-      <a className="after-title" to="#"> Under ₹299 </a>
+      <a className="after-title" href="#"> Under ₹299 </a>
       </div>
-    <a className="after-title-desc" to="#"> Limited Time Offer </a>
+    <a className="after-title-desc" href="#"> Limited Time Offer </a>
     </div>
 
   </div>
@@ -160,9 +142,9 @@ render() {
     <div className="title-box">
       <span className="title">Watches</span>
       <div>
-      <a className="after-title" to="#"> From ₹149 </a>
+      <a className="after-title" href="#"> From ₹149 </a>
       </div>
-    <a className="after-title-desc" to="#"> Knockout Deals! </a>
+    <a className="after-title-desc" href="#"> Knockout Deals! </a>
     </div>
 
   </div>
@@ -173,9 +155,9 @@ render() {
     <div className="title-box">
       <span className="title">Sprax and Bata Addidas...</span>
       <div>
-      <a className="after-title" to="#"> from ₹199 + extra 10% off </a>
+      <a className="after-title" href="#"> from ₹199 + extra 10% off </a>
       </div>
-    <a className="after-title-desc" to="#"> Mens casual shoes  </a>
+    <a className="after-title-desc" href="#"> Mens casual shoes  </a>
     </div>
 
   </div>
@@ -187,9 +169,9 @@ render() {
     <div className="title-box">
       <span className="title">Kitchen and Dining Essentials</span>
       <div>
-      <a className="after-title" to="#"> From ₹199 </a>
+      <a className="after-title" href="#"> From ₹199 </a>
       </div>
-    <a className="after-title-desc" to="#"> Best Discounts! </a>
+    <a className="after-title-desc" href="#"> Best Discounts! </a>
     </div>
 
 
@@ -210,9 +192,9 @@ render() {
     <div className="title-box">
       <span className="title">Kitchen and Dining Essentials</span>
       <div>
-      <a className="after-title" to="/"> From ₹199 </a>
+      <a className="after-title" href="#"> From ₹199 </a>
       </div>
-    <a className="after-title-desc" to="/"> Best Discounts! </a>
+    <a className="after-title-desc" href="#"> Best Discounts! </a>
     </div>
 
     </div>
@@ -221,23 +203,16 @@ render() {
        
           
         </SwiperSlide>
-     
+        {/* <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide> */}
       </Swiper>
     </>
   );
 }
-componentDidMount (){
-  console.log("did mount")
-  axios.get('https://justolearnapp.herokuapp.com/api/addproduct').then(response=>{
-      console.log("data",response)
-      this.setState({products:response.data.result})
-  }).catch(error=>{
-      console.log("error",error)
-  })
-}
-}
-
-export default Swiper1;
 
 
 

@@ -1,9 +1,8 @@
 import React from 'react';
 import Header from '../Header';
 import {BrowserRouter , Route , Routes} from 'react-router-dom'
-import AnotherLogin from '../Pages/AnotherLogin';
+// import AnotherLogin from '../Pages/AnotherLogin';
 import Home from '../Pages/Home';
-import BecomeSeller from '../Pages/BecomeSeller';
 import  More  from '../Pages/More';
 import My_Cart from '../Pages/My_Cart';
 // import Registerform from '../Register/Registerform';
@@ -35,6 +34,7 @@ const NavRouter = () => {
        <Route exact  path='/' element={<Home/>}></Route>
        {/* <Route exact  path='/anotherlogin' element={<AnotherLogin/>}></Route> */}
        {/* <Route exact  path='/more' element={<More/>}></Route> */}
+       <Route exact  path='/productdetails' element={<productDetails/>}></Route>
        <Route exact  path='/my_cart' element={<My_Cart/>}></Route>
        {/* <Route exact  path='/registerform' element={<Registerform/>}></Route> */}
        <Route exact  path='/addproducts' element={<AddProducts/>}></Route>

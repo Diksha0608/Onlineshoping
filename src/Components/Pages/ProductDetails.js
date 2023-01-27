@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export default class productDetails extends Component {
     constructor(){
         super()
-        this.state={products:[]}
+        // this.state={products:[]}
 
     }
     render() {
@@ -26,7 +26,7 @@ export default class productDetails extends Component {
   componentDidMount(){
   
     //external interaction
-    axios.get('https://justolearnapp.herokuapp.com/api/addproduct').then(response=>{
+    axios.get('').then(response=>{
         console.log("response",response)
         this.setState({products:response.data.result})
         console.log("products",this.state.products)

@@ -10,7 +10,7 @@ const Section2 = () => {
             <div className='card_with_text'>
               
             <div className='_image' >
-                <img src='../../images/top_offers.webp' alt='error' style={{height:'64px' , width:'64px'}}></img>
+                <img src='../../images/top_offers.webp' alt='error' ></img>
             </div>
             <div className='_text-content'>
                 <div>Top Offers</div>
@@ -20,7 +20,7 @@ const Section2 = () => {
 
             <div className='card_with_text'>
             <div className='_image'>
-                <img src='../../images/img2.webp' alt='error' style={{height:'64px' , width:'64px'}}></img>
+                <img src='../../images/img2.webp' alt='error' ></img>
             </div>
             <div className='_text-content'>
                 <div>Grocery</div>
@@ -29,7 +29,7 @@ const Section2 = () => {
 
             <div className='card_with_text'>
             <div className='_image'>
-                <img src='../../images/mobiles.webp' alt='error' style={{height:'64px' , width:'64px'}}></img>
+                <img src='../../images/mobiles.webp' alt='error' ></img>
             </div>
             <div className='_text-content'>
                 <div>Mobiles</div>
@@ -38,7 +38,7 @@ const Section2 = () => {
 
             <div className='card_with_text'>
             <div className='_image'>
-                <img src='../../images/faishons.webp' alt='error' style={{height:'64px' , width:'64px'}}></img>
+                <img src='../../images/faishons.webp' alt='error'></img>
             </div>
             <div className='_text-content'>
                 <div>Fashion</div>
@@ -47,7 +47,7 @@ const Section2 = () => {
 
             <div className='card_with_text'>
             <div className='_image'>
-                <img src='../../images/electronics_1.webp' alt='error' style={{height:'64px' , width:'64px'}}></img>
+                <img src='../../images/electronics_1.webp' alt='error'></img>
             </div>
             <div className='_text-content'>
                 <div>Electronics  <KeyboardArrowDownIcon  sx={{ fontSize: 20 }} style={{color:'black'}}/></div>
@@ -56,7 +56,7 @@ const Section2 = () => {
 
             <div className='card_with_text'>
             <div className='_image'>
-                <img src='../../images/home_1.webp' alt='error' style={{height:'64px' , width:'64px'}}></img>
+                <img src='../../images/home_1.webp' alt='error' ></img>
             </div>
             <div className='_text-content'>
                 <div style={{display:'flex', justifyContent:'space-around'}}>Home<ChevronDownarrow width={10} fill={'#000000'}/> </div>
@@ -65,7 +65,7 @@ const Section2 = () => {
 
             <div className='card_with_text'>
             <div className='_image'>
-                <img src='../../images/appliance1.webp' alt='error' style={{height:'64px' , width:'64px'}}></img>
+                <img src='../../images/appliance1.webp' alt='error' ></img>
             </div>
             <div className='_text-content'>
                 <div className='down-arrow'>Appliance <KeyboardArrowDownIcon   sx={{ fontSize: 20 }} style={{color:'black'}}/> </div>
@@ -74,7 +74,7 @@ const Section2 = () => {
 
             <div className='card_with_text'>
             <div className='_image'>
-                <img src='../../images/travel1.webp' alt='error' style={{height:'64px' , width:'64px'}}></img>
+                <img src='../../images/travel1.webp' alt='error' ></img>
             </div>
             <div className='_text-content'>
                 <div>Travel</div>
@@ -83,7 +83,7 @@ const Section2 = () => {
 
             <div className='card_with_text'>
             <div className='_image'>
-                <img src='../../images/beauty_toys.webp' alt='error' style={{height:'64px' , width:'64px'}}></img>
+                <img src='../../images/beauty_toys.webp' alt='error' ></img>
             </div>
             <div className='_text-content'>
                 <div>Beauty, Toys and More <KeyboardArrowDownIcon  className='down-arrow'  sx={{ fontSize: 20 }} style={{color:'black'}}/> </div>
